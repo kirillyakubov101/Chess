@@ -8,7 +8,7 @@ using Debug = UnityEngine.Debug;
 
 public class AIBrain : MonoBehaviour
 {
-    private string stockfishPath = @"D:\Unity Projects\Chess\Python\stockfish\stockfish-windows-x86-64-avx2.exe";  // Correct path to Stockfish executable
+    private string stockfishPath = @"Python/stockfish/stockfish-windows-x86-64-avx2.exe";  // Correct path to Stockfish executable
     private PieceColor AIColor;
     private string AIColorSymbol;
     public string currentFEN;
